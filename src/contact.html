@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+</head>
+<body>
+    <header>
+        <span id="site-logo" aria-label="Site Logo"><h1 style="color: white;">🐾 Contact Page</h1></span>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">🛒</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="document-container">
+    <main>
+        <h1>Welcome to Dog Center</h1>
+        
+        <div id="map" style="width: 100%; height: 400px;"></div>
+
+        <form id="contactForm">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name">
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="form-field">
+              <label for="address">Address</label>
+              <input type="text" id="address" name="address">
+            </div>
+            <div class="form-field">
+              <label for="state">State</label>
+              <select id="state" name="state">
+                <option value="">Select a state</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="zipcode">ZIP Code</label>
+              <input type="text" id="zipcode" name="zipcode">
+            </div>
+            <div class="form-field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject">
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="product-button">Submit</button>
+          </form>
+        
+       
+    </div>
+    <div class="page-bottom">
+        <li>Customer Care</li>
+        <li>Corporate</li>
+        <li>Services</li>
+        <li>Keep In Touch</li>
+    </div>
+    </main>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/splide.min.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

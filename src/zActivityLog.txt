@@ -1,0 +1,22 @@
+Week 13
+Created all pages
+Added designs to all pages
+added content to main page (index.html)
+Footer is from https://petco.com
+
+Week 14
+Installed lightbox2
+Created Products.js
+Implemented Product functions in products.js
+Created Cart.html
+Created Cart.html functions
+
+Week 15 
+Organized everything
+added loading for buttons
+Added orderConfirmation and all functionality and styling
+
+Week 16
+Added Contact.js and all functionality
+Added content to the about page
+states.json from https://gist.github.com/mshafrir/2646763
