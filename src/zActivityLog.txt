@@ -18,5 +18,5 @@ Added orderConfirmation and all functionality and styling
 
 Week 16
 Added Contact.js and all functionality
-Added content to the about page
+Added content to the about pagee
 states.json from https://gist.github.com/mshafrir/2646763
